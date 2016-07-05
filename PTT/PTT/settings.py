@@ -21,6 +21,8 @@ NEWSPIDER_MODULE = 'PTT.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+#test
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
