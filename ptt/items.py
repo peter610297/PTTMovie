@@ -8,10 +8,12 @@
 import scrapy
 
 
-class PttItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class PostItem(scrapy.Item):
     title = scrapy.Field()
     author = scrapy.Field()
     date = scrapy.Field()
-    pass
+    content = scrapy.Field()
+    comments = scrapy.Field()
+    score = scrapy.Field()
+    url = scrapy.Field()
+
